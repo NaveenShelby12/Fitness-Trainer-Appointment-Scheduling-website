@@ -5,8 +5,8 @@
 ## How to use 💻
 
 - For Creating and Adding a Client Appointment ==> Enter the Corresponding Details of the appointment as FirstName, Lastname, Location and Date-time. After Click on Submit the details will be added to the Table.
-- For Editing any details of a particular appointment ==> In the table of Existing Appointments, one can see an Edit button at the end of every Row. By clicking on Edit the details of the particular Appointment can be Editable.
-- To Delete any particular appointment ==> In the table of Existing Appointments, one can see a Delete button at the end of every Row. By clicking on the Delete the details of the particular Appointment will be Deleted.
+- For Editing any details of a particular appointment ==> In the table of Existing Appointments, one can see an Edit button at the end of every Row. By clicking on Edit Button the details of the particular Appointment can be Editable.
+- To Delete any particular appointment ==> In the table of Existing Appointments, one can see a Delete button at the end of every Row. By clicking on the Delete Button the details of the particular Appointment will be Deleted.
 
 ## How to run locally 🛠️
 
