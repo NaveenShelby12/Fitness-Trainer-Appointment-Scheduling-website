@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Coach Appointment Website</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="image"></div>
+    <h1 class="head"> Fitness Trainer Appointment Scheduling Website</h1>
+    <div class="Container">
+        <div class="itemdiv">
+            <form autocomplete="off" onsubmit="onFormSubmit()">
+                <input placeholder="Firstname" for="Firstname" type="text" class="item item1" id="Firstname" required>
+                <input placeholder="Lastname" type="text" class="item item2" id="Lastname" required>
+                <input placeholder="Location" type="text" class="item item3" id="Location" required>
+                <input placeholder="Date" type="datetime-local" class="item item4" id="Date" required>
+                <input class="item item5" type="submit" value="Submit">
+                <input class="item item6" type="reset" value="Reset">
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <h2>Appointments List</h2>
+        <table class="list" id="AppointmentList">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Location</th>
+                    <th>Date & Time</th>
+                    <th>Edit/Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script src="script1.js"></script>
+</body>
+
+
+
+</html>
