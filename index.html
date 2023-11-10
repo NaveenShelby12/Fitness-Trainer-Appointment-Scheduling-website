@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="image"></div>
+    <h1 class="heading">Fitness Trainer Appointment Scheduling Website</h1>
+    <div class="container">
+        <div class="itemsdiv">
+            <form autocomplete="off" onsubmit="onFormSubmit()">
+                <input id="Firstname" type="text" placeholder="Firstname" class="item item1">
+                <input id="Lastname" type="text" placeholder="Lastname" class="item item2">
+                <input id="Location" type="text" placeholder="location" class="item item3">
+                <input id="Date" type="date" placeholder="Date" class="item item4">
+                <button id="Submit" type="submit" class="item item5">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="tablediv">
+        <table id="table" class="table">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Location</th>
+                    <th>Date</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
